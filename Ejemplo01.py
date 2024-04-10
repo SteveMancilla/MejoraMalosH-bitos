@@ -1,11 +1,10 @@
-def f(a, b):
-    c = a * b
-    return c
+def multiplica(primer_factor, segundo_factor):
+    producto_factores = primer_factor * segundo_factor
+    return producto_factores
 
-x = 10
-y = 5
-z = x + y
+primer_numero = 10
+segundo_numero = 5
+nuermos_suma = primer_numero + segundo_numero
 
-
-resultado = f(x, z)
+resultado = multiplica(primer_numero, nuermos_suma)
 print(resultado)

@@ -1,12 +1,12 @@
-def calcular(a, b, c):
-    res = a * b + c
-    return res
+def calcular_operacion(primer_factor, segundo_factor, sumando):
+    operacion = primer_factor * segundo_factor + sumando
+    return operacion
 
-def principal():
-    x = 5
-    y = 3
-    z = 7
-    resultado = calcular(x, y, z)
+def registrar_numeros():
+    primer_numero = 5
+    segundo_factor = 3
+    tercer_factor = 7
+    resultado = calcular_operacion(primer_numero, segundo_factor, tercer_factor)
     print("El resultado es:", resultado)
 
-principal()
+registrar_numeros()
